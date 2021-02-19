@@ -22,6 +22,13 @@ This collection of cs practicals questions were collected from [**DAV Public Sch
 | 14. | Practical 14 | 24/11/2020 | - |  
 | 15. | Practical 15 | 27/11/2020 | - |
 
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
 
 ## Practical 1
 
