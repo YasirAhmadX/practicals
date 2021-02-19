@@ -25,7 +25,7 @@ This collection of cs practicals questions were collected from [**DAV Public Sch
 | Serial Number        | Name of practical          | Date of practical |
 |:-------------|:------------------|:------|
 | 1.           | Practical 1 | 14/08/2020  |
-| out of stock | good and plenty   | nice  |
+| 2. | Practical 2 | 18/08/2020  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
