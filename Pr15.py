@@ -4,20 +4,16 @@ in a file 'students.txt',then display back only those records from that file who
 '''
 from pickle import dump,load
 f=open('students.txt','w+b')
+list=[]
 for i in range(int(input('Number of students: '))):
     l=[int(input('Enter roll: '))]
     l.append(int(input('Enter age of roll '+str(l[0])+':')))
     l.append(input('Enter name of roll '+str(l[0])+':'))
-    dump(l,f)
-    
+    list.append(l)
+dump(list,f)
+
 f.seek(0,0)
 data=load(f)
-try:
-    while data:
-        if data[1]>16:
-            print(data)
-        data=load(f)
-except:
-    pass
-finally:
-    f.close() 
+for record in data:
+    if record[1]>16:
+        print(record)
