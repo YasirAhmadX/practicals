@@ -22,9 +22,9 @@ This collection of cs practicals questions were collected from [**DAV Public Sch
 | 14. | Practical 14 | 24/11/2020 | _ |  
 | 15. | Practical 15 | 27/11/2020 | _ |
 
-| head1        | head two          | three |
+| Serial Number        | Name of practical          | Date of practical |
 |:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
+| 1.           | Practical 1 | 14/08/2020  |
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
