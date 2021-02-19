@@ -3,8 +3,26 @@
 This collection of cs practicals questions were collected from [**DAV Public School, Hehal,Ranchi**](http://davhehal.org) and Solutions are written in  _python 3_ .These Practicals cover various topics related to lists , tuples , dictionary , functions , searching algorithms , sorting algorithms , file I/O ,etc. 
 
 ---
+## INDEX
+| Serial Number | Name of practical | Date of practical | Date of Submission |
+| --- | --- | --- | --- |
+| 1. | Practical 1 | 14/08/2020 | - |
+| 2. | Practical 2 | 18/08/2020 | - |
+| 3. | Practical 3 | 22/08/2020 | - |
+| 4. | Practical 4 | 28/08/2020 | - |
+| 5. | Practical 5 | 24/09/2020 | - |
+| 6. | Practical 6 | 12/10/2020 | - |
+| 7. | Practical 7 | 26/10/2020 | - |
+| 8. | Practical 8 | 4/11/2020 | - |
+| 9. | Practical 9 | 6/11/2020 | - |
+| 10. | Practical 10 | 6/11/2020 | - |
+| 11. | Practical 11 | 10/11/2020 | - |
+| 12. | Practical 12 | 13/11/2020 | - |
+| 13. | Practical 13 | 23/11/2020 | - |
+| 14. | Practical 14 | 24/11/2020 | - |
+| 15. | [Practical 15](https://eccentricx.github.io/practicals#Practical-15) | 27/11/2020 | - |
 
-### Practical 1
+## Practical-1
 
 > Write a program to count the number of characters in a string and generate a dictionary where the key values are all the unique characters from
 the string and its associated values refer its frequency.
@@ -21,7 +39,7 @@ print('Frequency of each characters: ',d)
 ```
 ---
 
-### Practical 2
+## Practical-2
 
 > Write a program to create a list with **n** number of items where each item refers a tuple which consist of the data as given below:
 `list=[('aman',45,52,62,52,63),('rahul',52,21,20,25,56),.......(stud_name,mark1,mark2,mark3,mark4,mark5)]`
@@ -50,7 +68,7 @@ print('Number of stduents to get more than 65%:',c)
 
 ---
 
-### Practical 3
+## Practical-3
 
 >Write a program to enter **n** no. of students's information in the form of list of tuple where each tuple consists of roll no. and its correspondingname.Example:`[(1,'adya'),(2,'abhinav'),.......(roll,'name')]`. Write a menu driven choice for the keys 1 and 2, where 1 is used to sequential search and 2 for binary search.
 >
@@ -100,7 +118,7 @@ while True:
 
 ---
 
-### Practical 4
+## Practical-4
 
 
 >Write a program to enter **n** no. of students's information in the form of list of tuple where each tuple consists of roll no. and its corresponding name. Example:`[(1,'adya'),(2,'abhinav'),.......(roll,'name')]`
@@ -126,7 +144,7 @@ print('Sorted List:' ,BubbleSort(l))
 
 ---
 
-### Practical 5
+## Practical-5
 
 >Write a program to input **n** numbers of integer in  a list and print the maximum even numberr present in it , if no even number is present, then
 print **'No even numbers is present !'** 
@@ -146,7 +164,7 @@ print('No even number is present.' if evn_number==-1 else evn_number)
 
 ---
 
-### Practical 6
+## Practical-6
 
 >Write a program to enter **n** number of registered user details in the form of dictionary, where the dictionary contain the following details `{'userid':'password'}`.
 Ask the user to search any userid, if it is not present in the dictionary then print **'userid not registered'**, other wise check the corresponding,
@@ -172,7 +190,7 @@ else:
 
 ---
 
-### Practical 7
+## Practical-7
 
 >Write a program to input a list having **n** number of elements and print the sum of all prime numbers and all odd numbers.
 
@@ -200,7 +218,7 @@ print('sum of prime no. is: ',sum_prime)
 
 ---
 
-### Practical 8
+## Practical-8
 
 >Write a program to create a function which takes 3 arguments (say a,b,ch) where a is length b is breadth and ch  is choice whether to compute area or perimeter.
 >
@@ -234,7 +252,7 @@ print(Area_Perimeter(a,b,ch))
 
 ---
 
-### Practical 9
+## Practical-9
 
 >Write a program to create a function which takes 3 arguments (say a,b,ch) where a is length b is breadth and ch  is choice whether to compute area or perimeter.
 >
@@ -268,7 +286,7 @@ print(Area_Perimeter(a=x,ch=choice,b=y))
 
 ---
 
-### Practical 10
+## Practical-10
 
 >WAP to create a function which takes 3 arguments (say a,b,ch) where a is length ;b is breadth and ch  is choice whether to compute area or perimeter.
 >**Note**:- By default it should find area.
@@ -297,7 +315,7 @@ print(Area_Perimeter(a=x,ch=choice,b=y))
 
 ---
 
-### Practical 11
+## Practical-11
 
 >Create a module named as **shape.py** which consists of three functions named as `arear(),areas() and areac()` for finding area of rectangle,square and circles resectively.
 >Call all these function from another file named as **check.py** using accession operator. 
@@ -336,7 +354,7 @@ print(shape.areas(4))
 
 ---
 
-### Practical 12
+## Practical-12
 
 >Create a module named as **shape.py** which consists of three functions named as `arear(),areas() and areac()` for finding area of rectangle,square and circles resectively.
 >Call all these function from another file named as **check2.py** without using accession operator. 
@@ -375,7 +393,7 @@ print(areas(4))
 
 ---
 
-### Practical 13
+## Practical-13
 
 >Write a program to read a text file **student.txt** and count: 
 >
@@ -407,7 +425,7 @@ print('Number digits:',c_digits)
 
 ---
 
-### Practical 14
+## Practical-14
 
 >Write a program to create a file named as **student.txt** which will contain names of **n** number of students.Then create another file **copy.py** in which copyonly those names from **student.txt** which starts with letter **'A'**.
 >
@@ -432,7 +450,7 @@ f.close()
 
 ---
 
-### Practical 15
+## Practical-15
 
 >Write a program to enter the details of **n** number of students having their roll,age,name in the form of a nested list`l=[[roll1,age,'name1'],[roll2,age2,'name2']...]`, dump the entire dataset
 >in a file **students.txt**,then display back only those records from that file whose age is **more than 16 years**.
