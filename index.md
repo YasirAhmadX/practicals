@@ -22,12 +22,23 @@ This collection of cs practicals questions were collected from [**DAV Public Sch
 | 14. | Practical 14 | 24/11/2020 | _ |  
 | 15. | Practical 15 | 27/11/2020 | _ |
 
-| Serial Number        | Name of practical          | Date of practical |
+| Serial Number | Name of practical          | Date of practical |
 |:-------------|:------------------|:------|
-| 1.           | Practical 1 | 14/08/2020  |
+| 1. | Practical 1 | 14/08/2020  |
 | 2. | Practical 2 | 18/08/2020  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| 3. | Practical 3 | 22/08/2020  |
+| 4. | Practical 4 | 28/08/2020  |
+| 5. | Practical 5 | 24/09/2020  |
+| 6. | Practical 6 | 12/10/2020  |
+| 7. | Practical 7 | 26/10/2020  |
+| 8. | Practical 8 | 4/11/2020   |
+| 9. | Practical 9 | 6/11/2020   |
+| 10. | Practical 10 | 6/11/2020  |
+| 11. | Practical 11 | 10/11/2020 |
+| 12. | Practical 12 | 13/11/2020 |
+| 13. | Practical 13 | 23/11/2020 |
+| 14. | Practical 14 | 24/11/2020 |
+| 15. | Practical 15 | 27/11/2020 |
 
 
 ## Practical 1
