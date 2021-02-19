@@ -1,6 +1,8 @@
 # CS Practicals
 
-This collection of cs practicals questions were collected from [**DAV Public School, Hehal,Ranchi**](http://davhehal.org) and Solutions are written in  _python 3_.These Practicals cover various topics related to lists , tuples , dictionary , functions , searching algorithms , sorting algorithms , file I/O ,etc.
+This collection of cs practicals questions were collected from [**DAV Public School, Hehal,Ranchi**](http://davhehal.org) and Solutions are written in  _python 3_ .These Practicals cover various topics related to lists , tuples , dictionary , functions , searching algorithms , sorting algorithms , file I/O ,etc. 
+
+---
 
 ### Practical 1
 
@@ -17,6 +19,7 @@ for i in s:
 print('Number of characters in the string: ',len(s))
 print('Frequency of each characters: ',d)
 ```
+---
 
 ### Practical 2
 
@@ -45,10 +48,11 @@ for t in l:
 print('Number of stduents to get more than 65%:',c)
 ```
 
+---
+
 ### Practical 3
 
->Write a program to enter **n** no. of students's information in the form of list of tuple where each tuple consists of roll no. and its corresponding
-name.Example:`[(1,'adya'),(2,'abhinav'),.......(roll,'name')]`. Write a menu driven choice for the keys 1 and 2, where 1 is used to sequential search and 2 for binary search.
+>Write a program to enter **n** no. of students's information in the form of list of tuple where each tuple consists of roll no. and its correspondingname.Example:`[(1,'adya'),(2,'abhinav'),.......(roll,'name')]`. Write a menu driven choice for the keys 1 and 2, where 1 is used to sequential search and 2 for binary search.
 >
 >Ask a roll number from the user and search the desired information accordingly.
 
@@ -94,11 +98,12 @@ while True:
         break
 ```
 
+---
+
 ### Practical 4
 
 
->Write a program to enter **n** no. of students's information in the form of list of tuple where each tuple consists of roll no. and its corresponding
-name. Example:`[(1,'adya'),(2,'abhinav'),.......(roll,'name')]`
+>Write a program to enter **n** no. of students's information in the form of list of tuple where each tuple consists of roll no. and its corresponding name. Example:`[(1,'adya'),(2,'abhinav'),.......(roll,'name')]`
 >
 >Sort the records in ascending order by using bubble sort with respect to their corresponding roll nummbers.
 
@@ -119,6 +124,8 @@ print('Original List: ',l)
 print('Sorted List:' ,BubbleSort(l))
 ```
 
+---
+
 ### Practical 5
 
 >Write a program to input **n** numbers of integer in  a list and print the maximum even numberr present in it , if no even number is present, then
@@ -136,6 +143,8 @@ for i in l:
 
 print('No even number is present.' if evn_number==-1 else evn_number)
 ```
+
+---
 
 ### Practical 6
 
@@ -160,6 +169,8 @@ if s_userid in d:
 else:
     print('userid not registered')
 ```
+
+---
 
 ### Practical 7
 
@@ -186,6 +197,8 @@ for i in l:
 print('sum of odd no. is: ',sum_odd)
 print('sum of prime no. is: ',sum_prime)
 ```
+
+---
 
 ### Practical 8
 
@@ -219,6 +232,8 @@ print(Area_Perimeter(a,b,ch))
 #help(Area_Perimeter)
 ```
 
+---
+
 ### Practical 9
 
 >Write a program to create a function which takes 3 arguments (say a,b,ch) where a is length b is breadth and ch  is choice whether to compute area or perimeter.
@@ -251,6 +266,8 @@ print(Area_Perimeter(a=x,ch=choice,b=y))
 #help(Area_Perimeter)
 ```
 
+---
+
 ### Practical 10
 
 >WAP to create a function which takes 3 arguments (say a,b,ch) where a is length ;b is breadth and ch  is choice whether to compute area or perimeter.
@@ -277,6 +294,8 @@ x,y,choice=int(input('a: ')),int(input('b: ')),int(input('choice: '))
 print(Area_Perimeter(a=x,ch=choice,b=y))
 #help(Area_Perimeter)
 ```
+
+---
 
 ### Practical 11
 
@@ -314,6 +333,9 @@ print(shape.arear(10,20))
 print(shape.areas(4))
 
 ```
+
+---
+
 ### Practical 12
 
 >Create a module named as **shape.py** which consists of three functions named as `arear(),areas() and areac()` for finding area of rectangle,square and circles resectively.
@@ -351,6 +373,8 @@ print(areas(4))
 
 ```
 
+---
+
 ### Practical 13
 
 >Write a program to read a text file **student.txt** and count: 
@@ -381,6 +405,8 @@ print('Number of words tha start with a vowel:',c_vowel)
 print('Number digits:',c_digits)
 ```
 
+---
+
 ### Practical 14
 
 >Write a program to create a file named as **student.txt** which will contain names of **n** number of students.Then create another file **copy.py** in which copyonly those names from **student.txt** which starts with letter **'A'**.
@@ -403,6 +429,8 @@ for i in f.readlines():
 c.close()
 f.close()
 ```
+
+---
 
 ### Practical 15
 
