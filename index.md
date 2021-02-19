@@ -5,7 +5,7 @@ This collection of cs practicals questions were collected from [**DAV Public Sch
 ---
 ## INDEX
 | Serial Number | Name of practical | Date of practical | Date of Submission | 
-| :---: | :---: | :---: | :---: | 
+|:---:|:---:|:---:|:---:| 
 | 1. | Practical 1 | 14/08/2020 | _ | 
 | 2. | Practical 2 | 18/08/2020 | _ |  
 | 3. | Practical 3 | 22/08/2020 | _ |  
