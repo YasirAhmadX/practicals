@@ -1,7 +1,6 @@
 # CS Practicals
 
-Following collection of cs practicals are for python students.
-Questions were collected from [**DAV Public School, Hehal,Ranchi**](http://davhehal.org) and Solutions are written for  _python 3.x_. Practicals cover various topics related to lists,tuples,dictionary,functions,search algorithms, sorting algorithms , file I/O ,etc.
+This collection of cs practicals questions were collected from [**DAV Public School, Hehal,Ranchi**](http://davhehal.org) and Solutions are written in  _python 3_.These Practicals cover various topics related to lists , tuples , dictionary , functions , searching algorithms , sorting algorithms , file I/O ,etc.
 
 ### Practical 1
 
@@ -25,6 +24,7 @@ print('Frequency of each characters: ',d)
 `list=[('aman',45,52,62,52,63),('rahul',52,21,20,25,56),.......(stud_name,mark1,mark2,mark3,mark4,mark5)]`
 >
 >Find the details of those students who is securing more than 65% as their average and display the total count of such students.
+
 ```python
 l=[]
 for i in range(int(input('Enter no. of students: '))):
@@ -143,6 +143,7 @@ print('No even number is present.' if evn_number==-1 else evn_number)
 Ask the user to search any userid, if it is not present in the dictionary then print **'userid not registered'**, other wise check the corresponding,
 password after asking the same from the user and print **'logged successfully'** if the user enters the correct password otherwise print 
 **'incorrect password'**.
+
 ```python3
 d={}
 for i in range(int(input('Enter number of entries: '))):
@@ -163,6 +164,7 @@ else:
 ### Practical 7
 
 >Write a program to input a list having **n** number of elements and print the sum of all prime numbers and all odd numbers.
+
 ```python3
 l=[]
 for i in range(int(input('Enter no. of elements in the list: '))):
@@ -187,7 +189,7 @@ print('sum of prime no. is: ',sum_prime)
 
 ### Practical 8
 
->Write a program to create a function which takes 3 arguments (say a,b,ch) where a is length ;b is breadth and ch  is choice whether to compute area or perimeter.
+>Write a program to create a function which takes 3 arguments (say a,b,ch) where a is length b is breadth and ch  is choice whether to compute area or perimeter.
 >
 >**Note**:- Use positional arguments:
 >
@@ -195,6 +197,7 @@ print('sum of prime no. is: ',sum_prime)
 >
 >ch==2 for perimeter 
 >
+
 ```python3
 def Area_Perimeter(a,b,ch):
     """
@@ -218,14 +221,15 @@ print(Area_Perimeter(a,b,ch))
 
 ### Practical 9
 
->Write a program to create a function which takes 3 arguments (say a,b,ch) where a is length ;b is breadth and ch  is choice whether to compute area or perimeter.
+>Write a program to create a function which takes 3 arguments (say a,b,ch) where a is length b is breadth and ch  is choice whether to compute area or perimeter.
 >
 >**Note**:- Use keyword arguments: 
 >
 >    ch==1 for area 
 >    
 >   ch==2 for perimeter 
->   
+>
+   
 ```python3
 def Area_Perimeter(a,b,ch):
     """
@@ -251,6 +255,8 @@ print(Area_Perimeter(a=x,ch=choice,b=y))
 
 >WAP to create a function which takes 3 arguments (say a,b,ch) where a is length ;b is breadth and ch  is choice whether to compute area or perimeter.
 >**Note**:- By default it should find area.
+>
+
 ```python3
 def Area_Perimeter(a,b,ch=1):
     """
@@ -377,10 +383,12 @@ print('Number digits:',c_digits)
 
 ### Practical 14
 
->Write a program to create a file named as **student.txt** which will contain names of **n** number of students.Then create another file **copy.py** in which copy
-only those names from **student.txt** which starts with letter **'A'**.
-Get sample of **student.txt** from [here](student.txt)
+>Write a program to create a file named as **student.txt** which will contain names of **n** number of students.Then create another file **copy.py** in which copyonly those names from **student.txt** which starts with letter **'A'**.
+>
+
+Get sample of **student.txt** from [here](student.txt)  
 Get sample of **copy.txt** from [here](copy.txt)
+
 ```python3
 f=open('student.txt','w+')
 for i in range(int(input('Enter number of students: '))):
@@ -400,6 +408,8 @@ f.close()
 
 >Write a program to enter the details of **n** number of students having their roll,age,name in the form of a nested list`l=[[roll1,age,'name1'],[roll2,age2,'name2']...]`, dump the entire dataset
 >in a file **students.txt**,then display back only those records from that file whose age is **more than 16 years**.
+>
+
 ```python3
 from pickle import dump,load
 f=open('students.txt','w+b')
