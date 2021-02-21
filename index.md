@@ -173,7 +173,7 @@ Ask the user to search any userid, if it is not present in the dictionary then p
 password after asking the same from the user and print **'logged successfully'** if the user enters the correct password otherwise print 
 **'incorrect password'**.
 
-```python3
+```python
 d={}
 for i in range(int(input('Enter number of entries: '))):
     key=input('Enter userid: ')
@@ -196,7 +196,7 @@ else:
 
 >Write a program to input a list having **n** number of elements and print the sum of all prime numbers and all odd numbers.
 
-```python3
+```python
 l=[]
 for i in range(int(input('Enter no. of elements in the list: '))):
     l.append(int(input('Enter element: ')))
@@ -231,7 +231,7 @@ print('sum of prime no. is: ',sum_prime)
 >ch==2 for perimeter 
 >
 
-```python3
+```python
 def Area_Perimeter(a,b,ch):
     """
         a(int): Length of the rectangle
@@ -265,7 +265,7 @@ print(Area_Perimeter(a,b,ch))
 >   ch==2 for perimeter 
 >
    
-```python3
+```python
 def Area_Perimeter(a,b,ch):
     """
         a(int): Length of the rectangle
@@ -294,7 +294,7 @@ print(Area_Perimeter(a=x,ch=choice,b=y))
 >**Note**:- By default it should find area.
 >
 
-```python3
+```python
 def Area_Perimeter(a,b,ch=1):
     """
         a(int): Length of the rectangle
@@ -324,7 +324,7 @@ print(Area_Perimeter(a=x,ch=choice,b=y))
 >
 
 Code for **shape.py**
-```python3
+```python
 def arear(length,breadth):
     '''
         Return area of a rectangle of given length and breadth
@@ -346,7 +346,7 @@ def areac(radius):
 ```
 
 Code for **check.py**
-```python3
+```python
 import shape
 print(shape.areac(15))
 print(shape.arear(10,20))
@@ -363,7 +363,7 @@ print(shape.areas(4))
 >
 
 Code for **shape.py**
-```python3
+```python
 def arear(length,breadth):
     '''
         Return area of a rectangle of given length and breadth
@@ -385,7 +385,7 @@ def areac(radius):
 ```
 
 Code for **check2.py**
-```python3
+```python
 from shape import *
 print(areac(15))
 print(arear(10,20))
@@ -407,7 +407,7 @@ print(areas(4))
 
 
 Get **student.txt** from [here](student.txt)
-```python3
+```python
 f=open('student.txt','r')
 c_vowel=c_Tline=c_digits=0
 
@@ -435,7 +435,7 @@ print('Number digits:',c_digits)
 Get sample of **student.txt** from [here](student.txt)  
 Get sample of **copy.txt** from [here](copy.txt)
 
-```python3
+```python
 f=open('student.txt','w+')
 for i in range(int(input('Enter number of students: '))):
     f.write(input('Enter name: ')+str('\n'))
@@ -458,7 +458,7 @@ f.close()
 >in a file **students.txt**,then display back only those records from that file whose age is **more than 16 years**.
 >
 
-```python3
+```python
 from pickle import dump,load
 f=open('students.txt','w+b')
 list=[]
