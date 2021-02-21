@@ -11,7 +11,7 @@ This collection of cs practicals questions were collected from [**DAV Public Sch
 | 2. | Practical 2 | 18/08/2020  |  |
 | 3. | Practical 3 | 22/08/2020  |  |
 | 4. | Practical 4 | 28/08/2020  |  |
-| 5. | [Practical 5](https://eccentricx.github.io/practicals/#Practical-5) | 24/09/2020  |  |
+| 5. | Practical 5 | 24/09/2020  |  |
 | 6. | Practical 6 | 12/10/2020  |  |
 | 7. | Practical 7 | 26/10/2020  |  |
 | 8. | Practical 8 | 4/11/2020   |  |
