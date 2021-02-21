@@ -474,6 +474,7 @@ data=load(f)
 for record in data:
     if record[1]>16:
         print(record)
+f.close()
 
 ```
 ---
