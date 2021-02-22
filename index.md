@@ -194,7 +194,9 @@ else:
 
 ## Practical 7
 
->Write a program to input a list having **n** number of elements and print the sum of all prime numbers and all odd numbers.
+>Write a program to input a list having **n** number of elements and print 
+>* the sum of all prime numbers 
+>* the sum of all odd numbers.
 
 ```python
 l=[]
@@ -224,12 +226,10 @@ print('sum of prime no. is: ',sum_prime)
 
 >Write a program to create a function which takes 3 arguments (say a,b,ch) where a is length b is breadth and ch  is choice whether to compute area or perimeter.
 >
->**Note**:- Use positional arguments:
->
->ch==1 for area 
->
->ch==2 for perimeter 
->
+>**Note**:- Use positional arguments: 
+>* ch==1 for area 
+>* ch==2 for perimeter 
+
 
 ```python
 def Area_Perimeter(a,b,ch):
@@ -259,10 +259,8 @@ print(Area_Perimeter(a,b,ch))
 >Write a program to create a function which takes 3 arguments (say a,b,ch) where a is length b is breadth and ch  is choice whether to compute area or perimeter.
 >
 >**Note**:- Use keyword arguments: 
->
->    ch==1 for area 
->    
->   ch==2 for perimeter 
+>* ch==1 for area 
+>* ch==2 for perimeter 
 >
    
 ```python
@@ -399,11 +397,12 @@ print(areas(4))
 
 >Write a program to read a text file **student.txt** and count: 
 >
->i)how many words are there that start with a vowel 
+>* How many words are there that start with a vowel 
 >
->ii)how many line start with T
+>* How many line start with T
 >
->iii)number of digits
+>* Number of digits 
+>
 
 
 Get **student.txt** from [here](student.txt)
