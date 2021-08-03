@@ -477,7 +477,3 @@ f.close()
 
 ```
 ---
-
-### About
-
-This page was made and is maintained by [EccentricX](https://github.com/EccentricX) . Contact him for any bugs or typo in above programs.
